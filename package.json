@@ -1,0 +1,19 @@
+{
+  "name": "machosportsreport",
+  "version": "1.0.0",
+  "description": "Welcome to the Macho Sports Report -- a sports blog by Full Stack Developer (and sports blogger) Paulo Camacho.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingbrs49/MachoSportsReport.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kingbrs49/MachoSportsReport/issues"
+  },
+  "homepage": "https://github.com/kingbrs49/MachoSportsReport#readme"
+}
