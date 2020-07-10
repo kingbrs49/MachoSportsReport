@@ -5,3 +5,12 @@ p {
 .image-container {
     text-align: center;
 }
+
+.kings {
+    color: #5a2b81;
+}
+
+.niners {
+    color: #AA0000;
+    text-shadow: #B3995D 1px 1px;
+}
