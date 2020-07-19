@@ -6,6 +6,26 @@ p {
     text-align: justify;
 }
 
+a {
+    color: red;
+}
+
+a.white {
+    color: white;
+}
+
+a:hover {
+    color: #aa0000;
+}
+
+hr.black {
+    border: 5px solid black;
+}
+
+hr.red {
+    border: 2px solid #aa0000;
+}
+
 .image-container {
     text-align: center;
 }
