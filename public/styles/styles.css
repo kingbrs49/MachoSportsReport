@@ -26,6 +26,10 @@ hr.red {
     border: 2px solid #aa0000;
 }
 
+hr.blockquote {
+    border: 2px solid #B3995D;
+}
+
 .image-container {
     text-align: center;
 }
