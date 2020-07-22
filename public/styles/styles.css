@@ -30,6 +30,10 @@ hr.blockquote {
     border: 2px solid #B3995D;
 }
 
+hr.orange {
+    border: 2px solid #fe5a1d;
+}
+
 .image-container {
     text-align: center;
 }
