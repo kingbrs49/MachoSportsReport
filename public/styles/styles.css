@@ -6,6 +6,10 @@ p {
     text-align: justify;
 }
 
+p.red {
+    color: #aa0000;
+}
+
 a {
     color: red;
 }
