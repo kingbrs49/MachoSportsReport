@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../styles/styles.css">
+
+    <title>The Giants Win The Pennant! A First-Person Account - The Macho Sports Report</title>
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=119693691451872&autoLogAppEvents=1"
+        nonce="1lLhuY70"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #aa0000;">
+        <a class="navbar-brand" href="../home.html">Macho Sports Report</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        About The Author
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Archives
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2018
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2017
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2016
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2015
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2014
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2013
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2012
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2011
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2010
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2009
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2008
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2007
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2006
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2005
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Categories
+                    </a>
+                    <ul class="dropdown-menu" aria-leabelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                Baseball
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    MLB
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                Basketball
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    NBA
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    NCAA Basketball
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Boxing
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Fantasy Sports
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                Football
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    NFL
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    NCAA Football
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                Golf
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    LPGA
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    PGA
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    USGA
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                Hockey
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    NHL
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Olympic Sports
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Pro Wrestling
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Soccer/Futbol
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Sports Gaming
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Sports Media
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Tennis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Ask The MSR!
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="https://www.facebook.com/CaMachoSports">
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="https://twitter.com/CaMachoSports">
+                                Twitter
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Other Columns
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item"
+                                href="http://www.davislifemagazine.com/davis-today/sports/macho-sports/">
+                                Davis Life Magazine
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="https://worldinsport.com/author/kingbrs49/">
+                                World In Sport
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="https://www.tcu360.com/authors/paulo-camacho/">
+                                TCU 360
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <div class="row">
+        <div class="col-lg-9">
+            <h1 class="display-4 text-center">
+                The Giants Win The Pennant! A First-Person Account
+            </h1>
+            <br>
+            <hr class="red">
+            <br>
+            <figure class="figure center">
+                <img src="https://res.cloudinary.com/integrated-information-consultants-llc/image/upload/v1595819505/Macho%20Sports%20Report%20Photos/2014-10-20-001.jpg" class="center" style="width:700px">
+                <figcaption class="figure-caption text-center">
+                    That’s what winning a National League championship looks like on the AT&T Park jumbotron.
+                </figcaption>
+            </figure>
+            <hr>
+            <p>
+                With the San Francisco Giants about to play in their third World Series in five years, I felt like writing this: It is a personal account of what it was like to go to, and witness, Thursday’s NLCS Game 5 at AT&T Park.
+            </p>
+            <br>
+            <p>
+                For a guy who loves sports, I had rarely ever been to professional sporting events live. So, this was my first chance to watch an MLB playoff game. And, what a way to do it – in a potential series-clinching situation.
+            </p>
+            <br>
+            <p>
+                So, enjoy this personal account of what went down, from the eyes of a Giants fan:
+            </p>
+
+            <hr class="dark">
+
+            <p>
+                The excitement of the event built to new heights for me as soon as Santiago Casilla shut the door on the St. Louis Cardinals in the ninth inning of Game 4.
+            </p>
+            <br>
+            <p>
+                "Oh, my God," I thought, after celebrating at my usual bar hangout with the crowd of Giants fans in attendance.
+            </p>
+            <br>
+            <p>
+                "I might see the Giants clinch the NLCS at AT&T."
+            </p>
+            <br>
+            <p>
+                A good friend of mine – a fellow Giants fan our group of friends affectionately referred to as Jeffy – asked me, soon after their 4-game victory over the Washington Nationals in the NLDS, if I wanted to go in on NLCS tickets. Long story short, he found tickets in a price range I simply couldn’t refuse. While I won’t divulge the final price, let’s just say I was shocked as to how cheap they were, considering the prices I’ve seen on various ticket-selling websites.
+            </p>
+            <br>
+            <p>
+                In any case, we were set to watch my first-ever Major League Baseball postseason game live – and his first MLB game ever at AT&T Park. Needless to say, we were both excited.
+            </p>
+
+            <hr class="dark">
+
+            <p>
+                I can say this about the day of the big game – for the first time in a long time watching Giants playoff baseball, I had a sense of calm about Game 5.
+            </p>
+            <br>
+            <p>
+                For the most part, my type of fandom is probably the most excruciating type (and I’m sure at least some of the audience can relate) – the eternally pessimistic type. In the back of our minds, we never believe our teams can win, never give ourselves the edge, but also hope that our teams can prove us wrong. We expect the worst and hope for the best for our teams. This has been my view of the San Francisco Giants since before 2010.
+            </p>
+            <br>
+            <p>
+                This wasn’t new for the Giants in the postseason. After all, their first championship season had the central theme of “torture” – from their last-game clinching of the NL West pennant, to each round of the playoffs coming down to the very last pitch to secure victory, it was pure and utter torture to watch for Giants fans – but all the more rewarding when they were celebrating on the field at Rangers Ballpark. The same could be said about 2012, and their inexplicable comebacks in both the NLDS and NLCS. It was tortuous to watch, but beautiful to experience, once the final strike by Sergio Romo was thrown.
+            </p>
+            <br>
+            <p>
+                Regardless, this was different. This was a potential clinching game to go to the World Series, and I was going to be at the ballpark to witness it in person. For the first time in a long time, I wouldn’t let my pessimistic mindset ruin this experience. It was almost as good as you could possibly get for a baseball fan – to watch a league championship game in your home ballpark. So, I made the decision: no matter if they clinch that Thursday, or they travel back to St. Louis over the weekend, I would enjoy the experience of the game, rather than just wait for the result.
+            </p>
+            <br>
+            <p>
+                I thought that was important for me, as I arrived at AT&T.
+            </p>
+
+            <hr class="dark">
+
+            <p>
+                Funnily enough, because of a misread on our smartphones, we actually got to the gates an entire hour before they actually opened. But what was an hour when we were already at the ballpark? Since Jeffy and I were there – and, incidentally, first in line – we decided to hang out until the gates opened.
+            </p>
+            <br>
+            <p>
+                I was dressed in my customary Giants track jacket, jeans, and my white, dingy Giants cap. It was important to my superstitious sensibilities to wear the white cap, rather than any of the other Giants caps in my wardrobe – especially my World Series 2010 Giants cap. Every win the Giants pulled off in the postseason happened when I was wearing that cap, and I wasn’t about to change that custom, then.
+            </p>
+            <br>
+            <p>
+                It was then when a lovely young lady came over to us and asked us when the gates would open. Apparently, we weren’t the only ones who had the time wrong. We got to talking and found that the young lady, Alma, was a Giants fan who traveled by herself all the way from Los Angeles to watch her Giants in the NLCS. As a native of Southern California, she said that her whole family – her brothers, especially – were huge Dodgers fans. Why, we asked, did she hover towards their rivals so passionately?
+            </p>
+            <br>
+            <p>
+                "Tim Lincecum," she replied. "He’s my favorite player."
+            </p>
+            <br>
+            <p>
+                It was a good enough reason for us. While Lincecum was likely not going to play a major role in these playoffs – and actually hasn’t, thus far – he has been the wonky-armed two-time Cy Young winner who played prominently in both of the Giants’ recent World Series titles.
+            </p>
+            <br>
+            <p>
+                It was Alma’s first time at AT&T Park, as well – and, like us, she certainly picked a good time to go to her first game in San Francisco. She had traveled eight hours by bus from SoCal, and was headed back after the game, as she had work the next day. The things we do for the teams we love …
+            </p>
+            <br>
+            <p>
+                Having gotten to know a new Giants compatriot, we decided to stick together for the duration of the pre-game. Once the gates opened, we took our time to take in the postseason AT&T Park atmosphere. We took in the view from the concourse leading up to the stadium seats; we took a gander at the stadium’s famous Garlic Fries; and we took advantage of the fact that we were at AT&T Park super early, making our way down to ground level to catch a look at batting practice … by the St. Louis Cardinals.
+            </p>
+            <br>
+            <figure class="figure center">
+                <img src="https://res.cloudinary.com/integrated-information-consultants-llc/image/upload/v1595819505/Macho%20Sports%20Report%20Photos/2014-10-20-002.jpg" class="center" style="width:700px">
+                <figcaption class="figure-caption text-center">
+                    Just Jeffy, Alma and me hanging out by the field at AT&T Park before Game 5 of the NLCS.
+                </figcaption>
+            </figure>
+            <hr>
+            <p>
+                We struck up a conversation with one of the staff, who had been employed since the stadium’s inception. We reveled in how close we were to the actual playing field.
+            </p>
+            <br>
+            <p>
+                We even witnessed a stray foul ball by one of the Cardinals players strike a kid, who also happened to be at ground level, in the back. Thankfully, it was a minor injury – likely a bruise would all he would take from the unfortunate experience.
+            </p>
+            <br>
+            <p>
+                "Consider it a battle scar," I told him.
+            </p>
+            <br>
+            <p>
+                While we never found out who hit the ball, at least the kid got to keep it.
+            </p>
+            <hr class="dark">
+            <p>
+                After the pictures were taken and the time was had next to the outfield, the game was set to begin. Alma was sitting a mere 30 rows across from us, though we didn’t see her again until after the contest was over.
+            </p>
+            <br>
+            <p>
+                Jeffy and I had surprisingly good seats – while in the upper decks, we had a prime view of the media box, set up with dozens of television sets tuned in to FOX Sports 1 and MLB Network. While we saw the action live, we were also able to see the action unfold three seconds later on TV.
+            </p>
+            <br>
+            <figure class="figure center">
+                <img src="https://res.cloudinary.com/integrated-information-consultants-llc/image/upload/v1595819505/Macho%20Sports%20Report%20Photos/2014-10-20-003.jpg" class="center" style="width:700px">
+                <figcaption class="figure-caption text-center">
+                    Our view of the field.
+                </figcaption>
+            </figure>
+            <hr>
+            <p>
+                And sometimes, it was kind of necessary, from our vantage point. The fact was we were a little obstructed at right field. Balls that flew in that direction couldn’t be seen from where we were sitting, so we had to rely on one of two things: either the television sets in front of us in the media boxes, or the reaction of the crowd based on who was fielding.
+            </p>
+            <br>
+            <p>
+                That was evident in the top of the third, with a scoreless tie, and runners on first and second. Jon Jay popped a ball into left field, where Travis Ishikawa made a critical mistake, misplaying the ball for the Cardinals’ first run. Again, we couldn’t see whether Ishikawa caught it or not – we could only tell from the reaction of the crowd, and we knew when the collective sighs of the fans in front of us let out, that it wasn’t a run-saving catch.
+            </p>
+            <br>
+            <p>
+                It was a letdown, to be sure – after all, the Cards did what many of us Giants fans hoped they wouldn’t – tag Bumgarner with an early run. And with the Giants’ relative difficulties scoring runs, there was an understanding that the offense was behind the 8-ball.
+            </p>
+            <br>
+            <p>
+                So, imagine our collective joy when, in the bottom of the third, Joe Panik pulled off a two-run home run to give the Giants the lead. At that point in the game, to say the place exploded would be an understatement.
+            </p>
+            <br>
+            <p>
+                Obviously, the top of the fourth brought those two solo homers by Matt Adams and Tony Cruz, to give the lead right back. And the crowd was relatively silenced after the second jack – save for a few scattered Cardinals fans in the crowd, of course. At that point, I can’t say the air was let out of the stadium; after all, it was still relatively early in the game. And, considering Panik had tagged Adam Wainwright with a home run of his own – coupled with his struggles in Game 1 – there was still time to climb back into this, right?
+            </p>
+            <br>
+            <p>
+                But as the scoreless innings continued to pile up for Wainwright and the Cardinals defense, it was getting more and more difficult to believe in a comeback – even if it was from one run down. It was enough to not even appreciate the way Bumgarner completely settled down after Cruz’s home run to take the lead. While he proceeded to retire the next 13 batters with relative ease, all I could think was:
+            </p>
+            <br>
+            <p>
+                "But we’re still down."
+            </p>
+            <br>
+            <p>
+                Around the sixth inning, my hope for a comeback had already hit rock-bottom – like I said, I’m a pessimist – and I just kept telling myself that, no matter what happens, try to take the positive out of this experience. After all, I met new people, I got to witness an NLCS game, and I wasn’t going to let a loss spoil this.
+            </p>
+            <br>
+            <p>
+                In retrospect, I don’t think those would have been necessarily comforting thoughts had we lost that game. At least, not at first.
+            </p>
+            <br>
+            <p>
+                But, then the eighth inning rolled around, and we saw Michael Morse making his first appearance in the series. Morse, who had been dealing with an injured oblique since August, was coming up to bat. I trusted the move by Bruce Bochy at this point, and in the back of my mind – I’m sure, in the back of a lot of fans’ minds – visions of a possible solo shot danced in my head.
+            </p>
+            <br>
+            <p>
+                I just didn’t believe it would happen. I mean, come on – in his first at-bat in the biggest game of his professional career, he would launch the game-tying home run to put us back in the game?
+            </p>
+            <br>
+            <p>
+                It was just too storybook.
+            </p>
+            <br>
+            <p>
+                Right?
+            </p>
+            <hr>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6YkXY81mOTY" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <hr>
+            <p>
+                With the Giants, sometimes they give you storybook.
+            </p>
+            <br>
+            <p>
+                You can imagine our reaction when the ball was looking to travel out of the ballpark. It was probably the same as the many Giants fans watching from around the country: pure joy, and absolute shock. The stadium experienced a surge of electricity from its tens of thousands of fans, and the Giants were back in the game.
+            </p>
+            <hr class="dark">
+            <p>
+                Then, came the ninth inning. We had just come off the high of Morse’s game-tying home run. But after a Grichuk single put runners on first and second with one out, that’s when the air started coming out of the stadium. A score by St. Louis at this point of the game – especially after tying the game in the inning prior – would have been greatly disheartening. So, when Kolten Wong looked like he had gotten an RBI single past Pablo Sandoval’s glove, you could feel the stadium holding its collective breath. When Brandon Crawford turned it into a fielder’s choice that held David Descalso at third, sighs of relief were audible in the stands.
+            </p>
+            <br>
+            <p>
+                Tony Cruz was up for the potential third out. Every pitch Santiago Casilla threw was torture. It was all I could do from going completely insane than to put my rally towel over my dingy, white Giants cap. I just didn’t want to see what could have been a potentially disastrous play this late in the game.
+            </p>
+            <br>
+            <p>
+                After Cruz walked, I wanted to pace back and forth, like I usually do when I'm watching Giants games at my favorite sports bar, or when I’m at home. The stress of the game was getting the best of me, and the wait for Jeremy Affeldt to take the mound against Oscar Taveras didn’t make it any easier. Luckily, Affeldt made quick work of Taveras, and we headed into the bottom of the ninth. One thought crossed my mind at that moment:
+            </p>
+            <br>
+            <p>
+                "We have to end this with a walk-off."
+            </p>
+            <br>
+            <p>
+                I'll be honest – I was fully expecting Trevor Rosenthal to enter the game. But, when Matheny went against that better judgment and went with Michael Wacha, I only thought that he may have knew something we didn’t, and that he would get our best batters out to go to the tenth.
+            </p>
+            <br>
+            <p>
+                But then Pablo Sandoval got a single to start things off. Then, after a Pence fly-out, Wacha walked Brandon Belt. Then – again, being honest – I wasn’t happy to see Travis Ishikawa at the plate. He was already 0-for-2, and with his luck thus far in the game, I honestly thought he would ground into a double play.
+            </p>
+            <br>
+            <p>
+                Boy, did he prove me wrong on his third pitch from Wacha.
+            </p>
+            <hr>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uogT8X26-ko" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <hr>
+            <p>
+                When I saw that ball launch, I can say – God’s honest truth – I wasn’t sure what I was seeing, at first.
+            </p>
+            <br>
+            <p>
+                It was only when I saw Ishikawa sprinting to first base, the crowd cheering, and the water cannons go off at Old Navy Splash Landing, that I realized what just happened.
+            </p>
+            <br>
+            <p>
+                He hit a home run. He won the game. He just sent the Giants to the World Series.
+            </p>
+            <br>
+            <p>
+                I don’t think I’ve ever experienced a more exhilarating feeling from a sporting event in my entire life.
+            </p>
+            <br>
+            <p>
+                And I couldn’t stop screaming.
+            </p>
+            <br>
+            <p>
+                I hugged Jeffy, as we jumped up and down with the rest of the crowd at AT&T Park. To say we were ecstatic doesn’t come close to describing how happy we were. I barely remember the moments after the home run, but I do remember saying this:
+            </p>
+            <br>
+            <p>
+                "OH MY GOD! WE’RE GOING TO THE WORLD SERIES! AAAAAAH!!!"
+            </p>
+            <hr class="dark">
+            <p>
+                It wasn’t long after the initial celebration died down when Jeffy and I went over to where Alma was sitting and reveled in the ultimate victory. The festivities were still under way on the field, as the championship trophy was being presented to the Giants as we took pictures to commemorate their third NL title in five years.
+            </p>
+            <br>
+            <figure class="figure center">
+                <img src="https://res.cloudinary.com/integrated-information-consultants-llc/image/upload/v1595819505/Macho%20Sports%20Report%20Photos/2014-10-20-004.jpg" class="center" style="width:700px">
+                <figcaption class="figure-caption text-center">
+                    Like this one, for example.
+                </figcaption>
+            </figure>
+            <hr>
+            <p>
+                It would be awhile before the three of us would go out to dinner after the game, in an effort to avoid the crowds on the light rail headed back home. But it was okay – the Giants had just won the pennant. And we soaked in every moment we could.
+            </p>
+            <br>
+            <p>
+                It was a once-in-a-lifetime occasion, and I was there to experience it.
+            </p>
+            <br>
+            <p>
+                To think it started with a question from a friend that I simply couldn’t say no to.
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <h4 class="lead">
+                Blogroll
+            </h4>
+            <hr class="red">
+            <div class="card text-white bg-dark mb-3 ml-4 mr-4">
+                <div class="card-body">
+                    <p>
+                        <a class="white" href="https://sexwithrubberchickens.com/">A Funny Dominatrix</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://barntsinthebelfry.wordpress.com/">Barnts In The Belfry</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://bleacherreport.com/">Bleacher Report</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://thesportsdaily.com/category/cowbell-kingdom/">Cowbell Kingdom</a>
+                    </p>
+                    <p>
+                        <a class="white" href="http://www.davislifemagazine.com/">Davis Life Magazine</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://www.ninersnation.com/">Niners Nation</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://chrisross91.wordpress.com/">Painting The Black</a>
+                    </p>
+                    <p>
+                        <a class="white" href="http://teachingassistantsdsu.blogspot.com/">Pedagogy of the Teaching Assistant</a>
+                    </p>
+                    <p>
+                        <a class="white" href="http://rossandheckler.blogspot.com/">Ross and The Heckler</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://www.sactownroyalty.com/">Sactown Royalty</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://www.tcu360.com/">TCU 360</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://www.tcu360.com/category/the-109/">The 109</a>
+                    </p>
+                    <p>
+                        <a class="white" href="http://shesingleton.blogspot.com/">The 30-Something Singleton's Life</a>
+                    </p>
+                    <p>
+                        <a class="white" href="http://www.theathletic.com/">The Athletic</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://brettryanclu.wordpress.com/">The Lens from Southern California</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://www.mccoveychronicles.com/">The McCovey Chronicles</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://thevangundy.wordpress.com/">The VanGundy</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://worldinsport.com/">World In Sport</a>
+                    </p>
+                </div>
+            </div>
+            <h4 class="lead">
+                MSR on Facebook
+            </h4>
+            <hr class="red">
+            <div class="fb-page" data-href="https://www.facebook.com/CaMachoSports" data-tabs="timeline"
+                data-width="300" data-height="700" data-small-header="false" data-adapt-container-width="true"
+                data-hide-cover="false" data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/CaMachoSports" class="fb-xfbml-parse-ignore"><a
+                        href="https://www.facebook.com/CaMachoSports">The Macho Sports Report</a></blockquote>
+            </div>
+            <br>
+            <hr class="black">
+            <br>
+            <h4 class="lead">
+                Subscribe to MSR on YouTube
+            </h4>
+            <hr class="red">
+            <div class="g-ytsubscribe" data-channelid="UCLyYGkinb5lXRB_GyvjsENQ" data-layout="full" data-theme="dark" data-count="default">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="../../js/app.js"></script>
+</body>
+</html>
