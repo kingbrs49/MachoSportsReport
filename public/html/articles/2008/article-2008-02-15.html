@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../../styles/styles.css">
+
+    <title>The Fantasy 49ers: Year in Review - The Macho Sports Report</title>
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=119693691451872&autoLogAppEvents=1"
+        nonce="1lLhuY70"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #aa0000;">
+        <a class="navbar-brand" href="../home.html">Macho Sports Report</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        About The Author
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Archives
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2018
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2017
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2016
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2015
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2014
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2013
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2012
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2011
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2010
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2009
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2008
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2007
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2006
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2005
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Categories
+                    </a>
+                    <ul class="dropdown-menu" aria-leabelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                Baseball
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    MLB
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                Basketball
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    NBA
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    NCAA Basketball
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Boxing
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Fantasy Sports
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                Football
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    NFL
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    NCAA Football
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                Golf
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    LPGA
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    PGA
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    USGA
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                Hockey
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    NHL
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Olympic Sports
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Pro Wrestling
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Soccer/Futbol
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Sports Gaming
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Sports Media
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Tennis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Ask The MSR!
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="https://www.facebook.com/CaMachoSports">
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="https://twitter.com/CaMachoSports">
+                                Twitter
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Other Columns
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item"
+                                href="http://www.davislifemagazine.com/davis-today/sports/macho-sports/">
+                                Davis Life Magazine
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="https://worldinsport.com/author/kingbrs49/">
+                                World In Sport
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="https://www.tcu360.com/authors/paulo-camacho/">
+                                TCU 360
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <div class="row">
+        <div class="col-lg-9">
+            <h1 class="display-4 text-center">
+                The Fantasy 49ers: Year in Review
+            </h1>
+            <br>
+            <hr class="red">
+            <br>
+            <p>
+                It was an impossible season, by anyone’s standards.
+            </p>
+            <br>
+            <p>
+                After a 5-11 season that saw the 49ers reach embarrassing levels on offense, Mike Nolan and the 49ers organization put together a completely unexpected juggernaut, destroying every team in its wake. Never relenting with their spectacular run-and-gun offense, the 49ers set unheard-of passing, rushing and receiving records.
+            </p>
+            <br>
+            <p>
+                The greatest team ever assembled started in the offseason. QB Alex Smith, coming off of a disheartening season that ended prematurely with a season-ending shoulder injury, worked with new offensive coordinator Mike Martz in his passing game and decision-making. Molding the 49ers offense into a hybrid of Martz’s “Fun-and-gun”, and Indianapolis’ audible-laden vertical attacks, Smith found the niche he was looking for. Smith, by many training camp accounts, could make the offense work – he just needed weapons.
+            </p>
+            <br>
+            <figure class="figure float-left">
+                <img src="https://res.cloudinary.com/integrated-information-consultants-llc/image/upload/v1596227432/Macho%20Sports%20Report%20Photos/2008-02-15-001.jpg" class="figure-img img-fluid rounded mr-4" style="width:300px">
+                <figcaption class="figure-caption" style="width:300px">
+                    Pro Bowl rookie WRs Paulo Camacho (left) and Matt Stauffer were major cogs in a historic 49ers offense.
+                </figcaption>
+            </figure>
+            <p>
+                Enter his two main weapons – rookie WRs Matthew Stauffer and Paulo Camacho. Both were undrafted free agents; Stauffer, 22, was a two-sport athlete in football and table tennis, out of Cal-Berkeley, while Camacho, also 22, was a troubled speedster out of Northwestern. It was inexplicable that Camacho wasn’t drafted, and San Francisco seized the opportunity to sign him to a 3-year deal. Stauffer, leaning toward football over table tennis, was picked up by the 49ers two weeks later.
+            </p>
+            <br>
+            <p>
+                Although Frank Gore and Vernon Davis were considered dangerous offensive weapons, they were extremely underutilized in 2007. Gore couldn’t find holes in the middle, while Davis was oft-injured in 2007. Martz simplified the offense for them both – Davis was mostly used as a chain-mover, while Gore used a repertoire of counter, slam and dive plays to gain yardage.
+            </p>
+            <br>
+            <p>
+                The results were immediate, and emphatic – a new offensive scheme, new wide receivers and a reinvented quarterback added up to a historic offense. During the regular season, the 49ers managed to score an NFL record 998 points, demolishing the Patriots’ record of 589 in 2007. With a differential of over 49 points per game, San Francisco displayed their utter dominance on the field every single week. Their offense led in nine different major statistical categories, including points per game (62.3), total yards (11,056) and total offensive yards (9,294).
+            </p>
+            <br>
+            <figure class="figure float-right">
+                <img src="https://res.cloudinary.com/integrated-information-consultants-llc/image/upload/v1596227457/Macho%20Sports%20Report%20Photos/2008-02-15-002.jpg" class="figure-img img-fluid rounded ml-4" style="width:300px">
+                <figcaption class="figure-caption ml-4" style="width:300px">
+                    Alex Smith, in one year, has shown to be the greatest single-season QB in NFL history.
+                </figcaption>
+            </figure>
+            <p>
+                Alex Smith’s production was nothing short of unbelievable: with 83 touchdowns and 14 interceptions during the regular season, Smith obliterated Tom Brady’s previous record of 50 TDs. With an incredible 134.6 quarterback rating, Smith passed for 6,576 yards, with a 66.0 completion percentage. His numbers won him a unanimous regular-season MVP award, and a Pro Bowl berth, as the overall leading vote-getter.
+            </p>
+            <br>
+            <p>
+                Stauffer, Camacho and Davis benefited most from Smith’s wild production. Stauffer, considered by many as the team’s "home run hitter", was Smith’s main long-bomb target. It showed in his numbers – with a mere 70 receptions, Stauffer racked up an amazing 2,413 receiving yards, catching 35 of them – 50% of his reception total – for touchdowns. Stauffer eradicated almost every major single-season receiving record in his rookie season, although, he stayed humble, while keeping a sense of humor about it.
+            </p>
+            <br>
+            <p>
+                "Breaking all these records was pretty special," Stauffer said in a week 17 interview. "In fact," he continued jokingly, "they should have a new record for most records broken in a single season."
+            </p>
+            <br>
+            <p>
+                Stauffer was a double threat on offense, returning kicks on special teams with supreme skill. Stauffer’s 40 kick returns may have been among the bottom of the league, his 1,451 yards and 4 return TDs was highly impressive.
+            </p>
+            <br>
+            <p>
+                "When Matt Stauffer get the ball," the wide receiver joked in a recent interview, "Matt Stauffer gonna run into the end zone, simple as that."
+            </p>
+            <br>
+            <p>
+                Davis finally lived up to his hype after being drafted in 2006. His 20 receiving touchdowns and 1,296 yards led all tight ends, proving to be a valuable asset to the passing game. Camacho, meanwhile, was considered the short-yardage receiver – however, this was only by title; he caught 89 passes for 2,349 yards and 23 touchdowns. While most of the attention went to Stauffer’s out-of-this-world numbers, Camacho knew his role, and realized there were enough numbers to go around. Because of their outstanding production, all three were invited to Hawaii for the Pro Bowl.
+            </p>
+            <br>
+            <figure class="figure float-left">
+                <img src="https://res.cloudinary.com/integrated-information-consultants-llc/image/upload/v1596227659/Macho%20Sports%20Report%20Photos/2008-02-15-003.png" class="figure-img img-fluid rounded mr-4" style="width:300px">
+                <figcaption class="figure-caption" style="width:300px">
+                    Frank Gore (21) followed up with his worst statistical season, to the biggest statistical season in NFL history, running through and away from opposing defenses.
+                </figcaption>
+            </figure>
+            <p>
+                Smith’s numbers could also be equated to Frank Gore’s sudden resurgence from a sub-par season in 2007. Gore, promising the year before that he would run for over 2,000 yards, made good on his vow. With an offensive line led by rookie RT Joe Staley and LT Larry Allen, Gore ran all over his opponents, sometimes literally. His final totals – 385 attempts for 2,689 yards with 39 rushing TDs – surpassed all-pro RB LaDainian Tomlinson as the greatest single season by a tailback in NFL history. A Pro Bowl invite was a mere formality after Gore’s historic regular season numbers.
+            </p>
+            <br>
+            <p>
+                The offensive line was also responsible for allowing a league-low 10 sacks during the regular season – a drastic improvement from the league-high 55 they gave up in 2007. The addition of rookie RT Joe Staley and the resurgence of LT Larry Allen, after pondering retirement after the 2007 season, contributed to their near-miraculous improvement. OTs Justin Smiley, Jonas Jennings and Center Jeremy Newberry fed off of Allen and Staley’s production, allowing a total of 5 sacks between them. Their reward? Tickets to Honolulu for all five of them.
+            </p>
+            <br>
+            <p>
+                The 49ers’ defense was also an integral part of their dominance this season. Infused with new talent out of free agency and the draft, the defensive unit allowed a league-low 13.2 points per game. Head coach Mike Nolan helped form defensive schemes full of blitzes and zone coverages, and the players responded emphatically. The defense finished first in the league in 9 major statistical categories, including sacks (66), interceptions (48), takeaways (54) and rushing yards allowed (847).
+            </p>
+            <br>
+            <figure class="figure float-right">
+                <img src="https://res.cloudinary.com/integrated-information-consultants-llc/image/upload/v1596227669/Macho%20Sports%20Report%20Photos/2008-02-15-004.jpg" class="figure-img img-fluid rounded ml-4" style="width:300px">
+                <figcaption class="figure-caption ml-4" style="width:300px">
+                    After replacing incumbent SS Mark Roman, Hermes Camacho put the game on notice with his hard hits and team-high 90 tackles.
+                </figcaption>
+            </figure>
+            <p>
+                The team’s recent draft yielded two defensive forces largely responsible for their turnaround. LB Patrick Willis, drafted 11th overall from Ole Miss in the 2007 NFL Draft, was a defensive force for the 49ers. He led the team in sacks with 11, while racking up 66 tackles and 10 passes defended. He was all over the field, causing three-and-outs on a regular basis. SS Hermes Camacho, who gave up a career in music for the NFL, was drafted in the seventh round out of Texas. After incumbent SS Mark Roman went down with a torn ACL in the preseason, Camacho was given a chance to start along with his brother, Paulo. The result was clear – Camacho led the team in tackles (90), with 4 sacks and 2 interceptions. Both recently got word of their Pro Bowl berths.
+            </p>
+            <br>
+            <p>
+                Five of their teammates on defense will be joining them in Hawaii. Nate Clements, their mega-deal pickup from Buffalo, led the 49ers secondary with 14 interceptions, returning 3 for touchdowns. CB Walt Harris will be starting alongside Clements in Honolulu – his 28 passes defended led the team, with 75 total tackles and 12 interceptions. Along with Shawntae Spencer, the 49ers had the most feared secondary in the league. All three are Hawaii-bound. FS Keith Lewis and RE Marques Douglas round out the record 17 49ers headed to the Pro Bowl – Lewis’ 52 tackles, 5 interceptions and 1 defensive touchdown was enough for the nod, while Douglas had 9 sacks and 2 forced fumbles.
+            </p>
+            <br>
+            <p>
+                After a 38-13 win over the Denver Broncos in Week 17, the 49ers finished a perfect 16-0 regular season – the second such season in as many years. With their dominance in the regular season, the 49ers were obvious favorites to win the Super Bowl. Unlike their predecessors in the 2007 New England Patriots, they didn’t disappoint. The 49ers lay waste to an upstart New York Giants team, defending their Super Bowl championship from the year before, 48-3. Then came a rematch of Week 3, against the Philadelphia Eagles. In their first meeting, the Eagles couldn’t handle the 49ers’ incredible offense, 77-17. In this meeting, the Eagles could only put up a substantially better fight, before succumbing to San Francisco’s unstoppable passing attack, 59-20.
+            </p>
+            <br>
+            <figure class="figure float-left">
+                <img src="https://res.cloudinary.com/integrated-information-consultants-llc/image/upload/v1596227682/Macho%20Sports%20Report%20Photos/2008-02-15-005.jpg" class="figure-img img-fluid rounded mr-4" style="width:300px">
+                <figcaption class="figure-caption" style="width:300px">
+                    Patrick Willis (52) was brilliant as a rookie, running over opposing running backs and sacking quarterbacks all season.
+                </figcaption>
+            </figure>
+            <p>
+                Super Bowl XLIII brought together the two teams that had been dying to play each other all season long: the 49ers and the Indianapolis Colts. The 17-1 Colts, led by Peyton Manning’s 55 passing TDs, was second to the 49ers in almost every major statistical category. With as well as each of their teams’ defenses had been playing, the 49ers-Colts matchup was an offensive battle of the ages. Indianapolis was looking to become the third 18-1 team to win a Super Bowl, while making the 49ers the second 18-1 team in as many years to lose a Super Bowl.
+            </p>
+            <br>
+            <p>
+                What ensued was beyond anyone’s imagination.
+            </p>
+            <br>
+            <p>
+                After a 78-yard touchdown pass from Manning to Harrison on the third play from scrimmage, Stauffer returned his first Super Bowl kickoff for a 98-yard score – the first of two return TDs – tying the game, 7-7. At this point, only 1 minute of game clock had gone by. Thus set the tone for an offensive battle like nothing ever seen. When the dust settled, the 49ers made more big plays, in a game full of big plays, 101-78. Smith finished with a 20-for-30 performance, throwing for 534 yards and 8 touchdowns, with 1 interception. Manning had a bigger day, shockingly, in a losing effort, throwing 26-for-50, 682 yards and 9 touchdowns, with 3 picks. Gore finished the day with 31 rush attempts for 168 yards and 3 touchdowns. Stauffer added to his return numbers – 441 return yards along with his two TDs – with 8 receptions, 260 yards and 4 touchdowns, while Camacho finished with 5 receptions, 154 yards and 3 TDs. CB Walt Harris’ 2 INTs were integral in the 49ers’ ultimate victory, cementing their place as the greatest team in NFL history.
+            </p>
+            <br>
+            <p>
+                After a perfect 19-0 season, many pundits are already wondering what else the 49ers can do next season to repeat. The question was posed to WR Paulo Camacho shortly after their Super Bowl victory.
+            </p>
+            <br>
+            <p>
+                "I dunno … how about another 19-0? I mean, after this year, why not?"
+            </p>
+            <br>
+            <p>
+                After a season like this in the books, for the 49ers, nothing’s impossible.
+            </p>
+            <br>
+            <hr>
+            <br>
+            <p>
+                <i>Well, of course this season is impossible!! Look at those scores! No one ever scores over 70 points in an NFL game, let alone scores over 70 multiple times in one season. This is obviously Madden NFL’s doing. I had been working on this franchise mode for a little over a month. But, why am I telling you? I had written about this before.</i>
+            </p>
+            <br>
+            <p>
+                <i>Nevertheless, I hoped you enjoyed this pleasant farce.</i>
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <h4 class="lead">
+                Blogroll
+            </h4>
+            <hr class="red">
+            <div class="card text-white bg-dark mb-3 ml-4 mr-4">
+                <div class="card-body">
+                    <p>
+                        <a class="white" href="https://sexwithrubberchickens.com/">A Funny Dominatrix</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://barntsinthebelfry.wordpress.com/">Barnts In The Belfry</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://bleacherreport.com/">Bleacher Report</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://thesportsdaily.com/category/cowbell-kingdom/">Cowbell Kingdom</a>
+                    </p>
+                    <p>
+                        <a class="white" href="http://www.davislifemagazine.com/">Davis Life Magazine</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://www.ninersnation.com/">Niners Nation</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://chrisross91.wordpress.com/">Painting The Black</a>
+                    </p>
+                    <p>
+                        <a class="white" href="http://teachingassistantsdsu.blogspot.com/">Pedagogy of the Teaching Assistant</a>
+                    </p>
+                    <p>
+                        <a class="white" href="http://rossandheckler.blogspot.com/">Ross and The Heckler</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://www.sactownroyalty.com/">Sactown Royalty</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://www.tcu360.com/">TCU 360</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://www.tcu360.com/category/the-109/">The 109</a>
+                    </p>
+                    <p>
+                        <a class="white" href="http://shesingleton.blogspot.com/">The 30-Something Singleton's Life</a>
+                    </p>
+                    <p>
+                        <a class="white" href="http://www.theathletic.com/">The Athletic</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://brettryanclu.wordpress.com/">The Lens from Southern California</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://www.mccoveychronicles.com/">The McCovey Chronicles</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://thevangundy.wordpress.com/">The VanGundy</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://worldinsport.com/">World In Sport</a>
+                    </p>
+                </div>
+            </div>
+            <div class="fb-page" data-href="https://www.facebook.com/CaMachoSports" data-tabs="timeline"
+                data-width="300" data-height="700" data-small-header="false" data-adapt-container-width="true"
+                data-hide-cover="false" data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/CaMachoSports" class="fb-xfbml-parse-ignore"><a
+                        href="https://www.facebook.com/CaMachoSports">The Macho Sports Report</a></blockquote>
+            </div>
+            <br>
+            <hr class="black">
+            <br>
+            <h4 class="lead">
+                Subscribe to MSR on YouTube
+            </h4>
+            <hr class="red">
+            <div class="g-ytsubscribe" data-channelid="UCLyYGkinb5lXRB_GyvjsENQ" data-layout="full" data-theme="dark" data-count="default">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="../../../js/app.js"></script>
+</body>
+</html>
