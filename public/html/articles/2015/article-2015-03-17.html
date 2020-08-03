@@ -3,9 +3,849 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../../styles/styles.css">
+
     <title>Why Chris Borland Walked Away: A Critical Perspective - The Macho Sports Report</title>
 </head>
 <body>
-    
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=119693691451872&autoLogAppEvents=1"
+        nonce="1lLhuY70"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #aa0000;">
+        <a class="navbar-brand" href="../home.html">Macho Sports Report</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        About The Author
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Archives
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2018
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2017
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2016
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2015
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2014
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2013
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2012
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2011
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2010
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2009
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2008
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2007
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2006
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2005
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Categories
+                    </a>
+                    <ul class="dropdown-menu" aria-leabelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                Baseball
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    MLB
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                Basketball
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    NBA
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    NCAA Basketball
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Boxing
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Fantasy Sports
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                Football
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    NFL
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    NCAA Football
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                Golf
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    LPGA
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    PGA
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    USGA
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                Hockey
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    NHL
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Olympic Sports
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Pro Wrestling
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Soccer/Futbol
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Sports Gaming
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Sports Media
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Tennis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Ask The MSR!
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="https://www.facebook.com/CaMachoSports">
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="https://twitter.com/CaMachoSports">
+                                Twitter
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Other Columns
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item"
+                                href="http://www.davislifemagazine.com/davis-today/sports/macho-sports/">
+                                Davis Life Magazine
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="https://worldinsport.com/author/kingbrs49/">
+                                World In Sport
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="https://www.tcu360.com/authors/paulo-camacho/">
+                                TCU 360
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <div class="row">
+        <div class="col-lg-9">
+            <h1 class="display-4 text-center">
+                Why Chris Borland Walked Away: A Critical Perspective
+            </h1>
+            <br>
+            <hr class="red">
+            <br>
+            <figure class="figure center">
+                <img src="https://res.cloudinary.com/integrated-information-consultants-llc/image/upload/v1596325414/Macho%20Sports%20Report%20Photos/2015-03-17-001.jpg" class="center" style="width:700px">
+                <figcaption class="figure-caption center text-center" style="width:700px">
+                    Why did 49ers LB Chris Borland retire after only one year in the NFL? The answer is actually pretty simple.
+                </figcaption>
+            </figure>
+            <hr>
+            <p>
+                It’s a decision that is still reverberating not only in the cities of San Francisco and Santa Clara, but all over the NFL Nation.
+            </p>
+            <p>
+                Chris Borland, the standout rookie LB for the San Francisco 49ers, at only the age of 24, is retiring from professional football.
+            </p>
+            <p>
+                The former Wisconsin Badgers tackling machine was duplicating his defensive success with the 49ers, and was viewed as the heir apparent to Patrick Willis, who retired at the age of 30 last week. In 14 games, Borland racked up 107 total tackles, including a six-game stretch where he averaged a punishing 14 tackles per game. Despite Willis’ unexpected retirement, fans were still optimistic Borland could slide in and make up for the lost production.
+            </p>
+            <p>
+                Then, the shocking news came down the pike, <a href="http://espn.go.com/espn/otl/story/_/id/12496480/san-francisco-49ers-linebacker-chris-borland-retires-head-injury-concerns?ex_cid=espnapi_public">courtesy of Mark Fainaru-Wada and Steve Fainaru</a> – Borland was stepping down without even entertaining the thought of playing in prime of his career. He will be returning to the University of Wisconsin to pursue a Master’s in Sports Management.
+            </p>
+            <p>
+                And football fans, 49ers fans and sports onlookers alike were left in the wake of the announcement with one question on their minds:
+            </p>
+            <p>
+                Why?
+            </p>
+            <p>
+                If the names Junior Seau and Dave Duerson ring a bell – <a href="http://www.foxsports.com/nfl/story/Junior-Seau-Dave-Duerson-death-suggests-football-toll-on-health-may-be-worse-than-we-thought-050312">and for all the wrong reasons</a> – then you know exactly why.
+            </p>
+            <p>
+                It is a truly frightening idea to stare the effects of <a href="https://www.webmd.com/brain/what-is-chronic-traumatic-encephalopathy-cte#1">Chronic traumatic encephalopathy (CTE)</a> in the face and ponder one’s own mortality in their early 20s. And, apparently for Borland, this was a prospect that the Kettering, Ohio native was not willing to face in the years and decades down the road:
+            </p>
+            <br>
+            <hr class="blockquote">
+            <blockquote class="blockquote">
+                <p class="mb-0">
+                    <i>I just honestly want to do what’s best for my health. From what I’ve researched and what I’ve experienced, I don’t think it’s worth the risk. […] I feel largely the same, as sharp as I’ve ever been. For me, <b>it’s wanting to be proactive</b> (emphasis added). I’m concerned that if you wait ’til you have symptoms, it’s too late. … There are a lot of unknowns. I can’t claim that X will happen. I just want to live a long, healthy life, and I don’t want to have any neurological diseases or die younger than I would otherwise.</i>
+                </p>
+            </blockquote>
+            <hr class="blockquote">
+            <br>
+            <p>
+                The fact was that he was one of the best young tacklers in the game, who had great production on the football field. But Borland weighed that against two concussions he already suffered at the University of Wisconsin, and another concussion he believed to have suffered in training camp last year. And, for him, the cost of continuing to play was too great. In response, the 49ers were gracious and accepting of Borland’s ultimate decision to retire, supporting him in a statement by GM Trent Baalke:
+            </p>
+            <br>
+            <hr class="blockquote">
+            <blockquote class="blockquote">
+                <p class="mb-0">
+                    <i>From speaking with Chris, it was evident that he had put a great deal of thought into this decision. He was a consummate professional from day one and a very well-respected member of our team and community. Chris is a determined young man that overcame long odds in his journey to the NFL, and we are confident he will use the same approach to become very successful in his future endeavors. We will always consider him a 49er and wish him all the best.</i>
+                </p>
+            </blockquote>
+            <hr class="blockquote">
+            <br>
+            <p>
+                It’s certainly something that I think a lot of people can understand – for the sake of his future health, he is walking away from a lucrative, yet dangerous, undertaking. And people who took to social media, for the most part, were supportive of Borland’s decision, including <a href="https://twitter.com/DangeRussWilson/status/577671502729908225">Seattle Seahawks QB Russell Wilson,</a> <a href="https://6abc.com/espn-otl-chris-borland-retirement/561655/#:~:text=St.%20Louis%20Rams%20defensive%20end%20Chris%20Long%20tweeted,researchers%20and%20former%20players%20to%20affirm%20his%20decision.">St. Louis Rams DE Chris Long</a> and <a href="https://twitter.com/kzeit70/status/577662955451334656">Cincinnati Bengals G Kevin Zeitler,</a> who played with Borland in Wisconsin.
+            </p>
+            <p>
+                Yet there are those out there who choose to judge his decision, calling him a "quitter," a "coward" and a "wimp" – among other more vulgar variations. For argument's sake, Borland did ponder leaving football before his rookie year even began. If he was having doubts as soon as then, why did he waste the 49ers' time by taking the field?
+            </p>
+            <p>
+                Well, that's pretty simple – it's because reaching the NFL was likely a lifelong dream for Borland, along with the hundreds of other players who are drafted and signed to contracts every year. He wanted to realize it, just like anyone reading this would want to realize their own lifelong dreams. It's just, when Borland captured that dream, he realized the potential ramifications of sustaining that dream were not worth living it.
+            </p>
+            <p>
+                And you know what? <i>That's okay.</i>
+            </p>
+            <br>
+            <figure class="figure center">
+                <img src="https://res.cloudinary.com/integrated-information-consultants-llc/image/upload/v1596325479/Macho%20Sports%20Report%20Photos/2015-03-17-002.jpg" class="center" style="width:700px">
+                <figcaption class="figure-caption center text-center" style="width:700px">
+                    Seriously, bruh – you have NOTHING to be ashamed of.
+                </figcaption>
+            </figure>
+            <br>
+            <p>
+                Yet, there are still those who would judge him for giving up on his dream simply because he did the math and decided he didn’t want to be a brain-damaged shell of his former self in 20 or 30 years.
+            </p>
+            <p>
+                I can hear the detractors, now.
+            </p>
+            <hr>
+            <p class="red">
+                <b><i>"He should have known the effects of playing a contact sport! It’s not rocket science!"</i></b>
+            </p>
+            <p>
+                Well, then, I suppose we should admonish men like Borland who don’t want to punish their bodies and brains until they turn to mush at the age of 45. We should handcuff them to a sport for which they no longer want to risk their lives and livelihoods playing, simply because they failed to inform themselves completely, or worse yet – *gasp!* – they changed their minds. Because, how DARE they!
+            </p>
+            <br>
+            <figure class="figure center">
+                <img src="https://res.cloudinary.com/integrated-information-consultants-llc/image/upload/v1596325528/Macho%20Sports%20Report%20Photos/2015-03-17-003.jpg" class="center" style="width:225px">
+                <figcaption class="figure-caption center text-center" style="width:700px">
+                    LOL.
+                </figcaption>
+            </figure>
+            <br>
+            <hr>
+            <p class="red">
+                <i><b>"You quit on your team! You’re a quitter!"</b></i>
+            </p>
+            <p>
+                If you want to get into semantics, sure – he technically “quit” (as Tim Ryan said this morning on KNBR San Francisco – words, by the way, <a href="http://profootballtalk.nbcsports.com/2015/03/17/tim-ryan-unfairly-attacked-for-chris-borland-comments/">he is getting unfairly bashed for</a>). But, ultimately, there is such a thing as quitting for the right reasons. And I believe that "not wanting to put oneself in a position of a disabled future" is a pretty good reason. Besides, aren’t we the same society that says individuals should never do anything without being fully committed to it?
+            </p>
+            <p>
+                This goes back to my previous point – should we force someone to continue a career he doesn’t feel he wants to do anymore because <i>we</i>> don’t feel like it’s right, or <i>we</i>> don’t understand the decision? Who are you to say that? Who are any of us to say that? You know – other than ridiculously selfish?
+            </p>
+            <hr>
+            <p class="red">
+                <b><i>"You’re crazy to walk away – if that was me, I would NEVER do that!"</i></b>
+            </p>
+            <p>
+                I can admit – if you think it is strange that a healthy 24-year-old blue-collar football player would give up playing in the highest level of the sport, then you’re not alone, because, yes – it IS pretty odd.
+            </p>
+            <p>
+                Again, that doesn’t mean you get to play armchair quarterback and dictate how a grown man should live his life – because, at the end of the day, you’re not the one living with the ramifications of repeated explosive hits to the head over a moderate-to-long football career. Borland took a long look at the possibilities of a long NFL career, threw up his hands, and said he didn’t want that life.
+            </p>
+            <p>
+                He didn’t do that for you – he did that for him.
+            </p>
+            <br>
+            <figure class="figure center">
+                <img src="https://res.cloudinary.com/integrated-information-consultants-llc/image/upload/v1596325576/Macho%20Sports%20Report%20Photos/2015-03-17-004.png" class="center" style="width:425px">
+                <figcaption class="figure-caption center text-center" style="width:425px">
+                    Yeah - what Drago said.
+                </figcaption>
+            </figure>
+            <br>
+            <hr>
+            <p class="red">
+                <b><i>"You’re a coward!"</i></b>
+            </p>
+            <p>
+                Well, I guess if he was afraid of possibly ending up like a Seau or Duerson, then, sure, I guess you could say he was a "coward." But why would you? I wouldn’t wish that kind of fate on my worst enemy, so why would Borland – a guy who had suffered multiple concussions and saw the writing on the wall when it came to the possibilities of CTE – risk bestowing that fate upon himself?
+            </p>
+            <p>
+                As far as I’m concerned, what he did was the <b>exact opposite</b> of a cowardly act – he realized that the dream was liable to kill him prematurely, and he walked away from the thing he loved – because life, and the quality of that life, was more important. It takes a lot of guts to admit, publicly, that your path in life was not the right one for you. Anyone who has found themselves in a dead-end or soulless career can attest to that.
+            </p>
+            <hr>
+            <p>
+                But, hey – that doesn’t mean you can’t be sad that he’s leaving, or angry, for that matter – especially if you’re a 49ers fan. After all, you’re probably feeling like he’s leaving you high and dry, and in a way, he is. Without him, the LB corp looks to be in complete shambles – and the defense, in general, looks more like a liability than a strength. Borland retiring is partly to blame for that.
+            </p>
+            <p>
+                Just understand this – if you’re angry at Borland, your anger is misplaced. Because, ultimately, the 49ers look like they are in dire straits because of everything that has happened – not just because Borland decided to take control of his own life and venture off on another path. To be bitter about Borland leaving makes about as much sense as being bitter that Jenna Coleman isn’t your girlfriend – it’s completely out of your control, so why bother?
+            </p>
+            <br>
+            <figure class="figure center">
+                <img src="https://res.cloudinary.com/integrated-information-consultants-llc/image/upload/v1596325661/Macho%20Sports%20Report%20Photos/2015-03-17-005.jpg" class="center" style="width:500px">
+                <figcaption class="figure-caption center text-center" style="width:425px">
+                    Amirite, though? Hah??
+                </figcaption>
+            </figure>
+            <br>
+            <p>
+                Hopefully, Borland will be happy with his decision moving forward; and the 49ers will be able to replace him in the long-term, and soon. The important thing is to focus on the fact that Borland didn’t retire because he wanted to make the world of 49ers fans angry; he didn’t retire because he was inherently a coward or a quitter; and he didn’t retire because he couldn’t do it anymore.
+            </p>
+            <p>
+                He did it because he felt that it was best for him.
+            </p>
+            <p>
+                And, in the end, that should be enough for us.
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <h4 class="lead">
+                Blogroll
+            </h4>
+            <hr class="red">
+            <div class="card text-white bg-dark mb-3 ml-4 mr-4">
+                <div class="card-body">
+                    <p>
+                        <a class="white" href="https://sexwithrubberchickens.com/">A Funny Dominatrix</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://barntsinthebelfry.wordpress.com/">Barnts In The Belfry</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://bleacherreport.com/">Bleacher Report</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://thesportsdaily.com/category/cowbell-kingdom/">Cowbell Kingdom</a>
+                    </p>
+                    <p>
+                        <a class="white" href="http://www.davislifemagazine.com/">Davis Life Magazine</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://www.ninersnation.com/">Niners Nation</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://chrisross91.wordpress.com/">Painting The Black</a>
+                    </p>
+                    <p>
+                        <a class="white" href="http://teachingassistantsdsu.blogspot.com/">Pedagogy of the Teaching Assistant</a>
+                    </p>
+                    <p>
+                        <a class="white" href="http://rossandheckler.blogspot.com/">Ross and The Heckler</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://www.sactownroyalty.com/">Sactown Royalty</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://www.tcu360.com/">TCU 360</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://www.tcu360.com/category/the-109/">The 109</a>
+                    </p>
+                    <p>
+                        <a class="white" href="http://shesingleton.blogspot.com/">The 30-Something Singleton's Life</a>
+                    </p>
+                    <p>
+                        <a class="white" href="http://www.theathletic.com/">The Athletic</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://brettryanclu.wordpress.com/">The Lens from Southern California</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://www.mccoveychronicles.com/">The McCovey Chronicles</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://thevangundy.wordpress.com/">The VanGundy</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://worldinsport.com/">World In Sport</a>
+                    </p>
+                </div>
+            </div>
+            <h4 class="lead">
+                MSR on Facebook
+            </h4>
+            <hr class="red">
+            <div class="fb-page" data-href="https://www.facebook.com/CaMachoSports" data-tabs="timeline"
+                data-width="300" data-height="700" data-small-header="false" data-adapt-container-width="true"
+                data-hide-cover="false" data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/CaMachoSports" class="fb-xfbml-parse-ignore"><a
+                        href="https://www.facebook.com/CaMachoSports">The Macho Sports Report</a></blockquote>
+            </div>
+            <br>
+            <hr class="black">
+            <br>
+            <h4 class="lead">
+                Subscribe to MSR on YouTube
+            </h4>
+            <hr class="red">
+            <div class="g-ytsubscribe" data-channelid="UCLyYGkinb5lXRB_GyvjsENQ" data-layout="full" data-theme="dark" data-count="default">
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
