@@ -83,3 +83,14 @@ hr.dark {
     margin-right: .1rem;
 }
 
+.left {
+    float: left;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+.right {
+    float: right;
+    margin-right: 5px;
+    margin-top: 0px;
+}
