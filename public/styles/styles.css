@@ -3,13 +3,18 @@
     src: url(./fonts/Oswald-VariableFont_wght.ttf)
 }
 
+@font-face {
+    font-family: 'Barlow';
+    src: url(./fonts/BarlowSemiCondensed-Light.ttf)
+}
+
 .row {
     margin: 5px 20px 5px 20px;
 }
 
 p { 
     text-align: justify;
-    font-family: 'Oswald';
+    font-family: 'Barlow';
 }
 
 p.red {
