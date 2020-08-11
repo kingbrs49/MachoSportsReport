@@ -1,9 +1,15 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url(./fonts/Oswald-VariableFont_wght.ttf)
+}
+
 .row {
     margin: 5px 20px 5px 20px;
 }
 
 p { 
     text-align: justify;
+    font-family: 'Oswald';
 }
 
 p.red {
