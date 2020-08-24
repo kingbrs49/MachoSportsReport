@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../../../../styles/styles.css">
+
+    <title>The 2007 Davis Fantasy League: Year In Review - The Macho Sports Report</title>
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=119693691451872&autoLogAppEvents=1"
+        nonce="1lLhuY70"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #aa0000;">
+        <a class="navbar-brand" href="../home.html">Macho Sports Report</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        About The Author
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Archives
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2018
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2017
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2016
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2015
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2014
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2013
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2012
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2011
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    July
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2010
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2009
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    April
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2008
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    June
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    February
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2007
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    May
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    March
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    January
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2006
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    December
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                2005
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    November
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    October
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    September
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    August
+                                </a>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Categories
+                    </a>
+                    <ul class="dropdown-menu" aria-leabelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                Baseball
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    MLB
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                Basketball
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    NBA
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    NCAA Basketball
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Boxing
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Fantasy Sports
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                Football
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    NFL
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    NCAA Football
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                Golf
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    LPGA
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    PGA
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    USGA
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#">
+                                Hockey
+                            </a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    NHL
+                                </a>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Olympic Sports
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Pro Wrestling
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Soccer/Futbol
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Sports Gaming
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Sports Media
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">
+                                Tennis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Ask The MSR!
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="https://www.facebook.com/CaMachoSports">
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="https://twitter.com/CaMachoSports">
+                                Twitter
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Other Columns
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item"
+                                href="http://www.davislifemagazine.com/davis-today/sports/macho-sports/">
+                                Davis Life Magazine
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="https://worldinsport.com/author/kingbrs49/">
+                                World In Sport
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="https://www.tcu360.com/authors/paulo-camacho/">
+                                TCU 360
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <div class="row">
+        <div class="col-lg-8">
+            <h1 class="display-4">
+                The 2007 Davis Fantasy League: Year In Review
+            </h1>
+            <div>
+                <h4 class="lead left">
+                    by Paulo C Camacho
+                </h4>
+                <h4 class="lead right">
+                    December 26, 2006
+                </h4>
+            </div>
+            <br>
+            <hr class="red">
+            <br>
+            <p>
+                The self-proclaimed Fantasy Genius finally broke through to win the Davis League title.
+            </p>
+            <figure class="figure float-left">
+                <img src="https://res.cloudinary.com/integrated-information-consultants-llc/image/upload/v1597212556/Macho%20Sports%20Report%20Photos/2006/12-December/2006-12-26-001.jpg" class="figure-img img-fluid rounded mr-4" style="width:400px">
+                <figcaption class="figure-caption" style="width:400px">
+                    Kaisers GM Hermes Camacho (left) with Excaliburs GM Paulo Camacho. The Kaisers won the Davis League Title; the Excaliburs finished third.
+                </figcaption>
+            </figure>
+            <p>
+                Hermes Camacho and his Davis Kaisers (13-3) were victorious against Jeff Wilhelm's heavily favored I Can’t Believe I Won A Game's (13-3), in the Davis League Championship. It was Camacho's duo of running backs, led by Maurice Jones-Drew (131 yards, 2 TDs) and Reggie Bush (126 yards, 1 TD), who held off Wilhelm's renowned trio of running backs, and made the difference for the Kaisers. Holding a slim lead going into Monday night, Kaisers Wide Receivers Terrell Owens and Wesley Welker held off a decent showing by Brian Westbrook, Tony Romo and Jason Taylor of the I Won A Game's to seal the win.
+            </p>
+            <p>
+                "I took the regular season," Wilhelm said after the game. "It looks like my trio of running backs finally let me down in the championship."
+            </p>
+            <p>
+                The I Won A Game's were considered heavy favorites going into the Davis League championship. First-year GM Jeff Wilhelm took over for former GM Steve Hough, and inherited a team headed by Quarterback Donovan McNabb, Running Back LaDainian Tomlinson and Running Back Steven Jackson. On the strength of Tomlinson, Jackson and Running Back Brian Westbrook, Wilhelm's team ran away with a 12-2 regular season title. Tomlinson had a record season, with 1626 rushing yards and 28 total TDs on the year, while Jackson and Westbrook each had over 1100 rushing yards and 10 total touchdowns. Wide Receiver Marques Colston and Quarterback Tony Romo were key acquisitions, pivotal in complementing the I Won A Game's running back corp. Big individual games from Defensive End Jason Taylor, as well as Wide Receivers Lee Evans and Jericho Cotchery, were also critical to Wilhelm's success.
+            </p>
+            <p>
+                The I Won a Game's started the season 3-0, with impressive victories. They proceeded to lose two in a row to the Davis Excaliburs, headed by Paulo Camacho, and the Rambling Wreck, led by Dale Kunce, before rattling off nine straight victories to take the number one seed in the playoffs. After a close victory against the surging Excaliburs in the first round, Wilhelm was confident going into the championship.
+            </p>
+            <p>
+                "Santa, I’ll take four TDs from [Tomlinson] as a Christmas present," Wilhelm jokingly said in a pregame interview. "Thanks in advance."
+            </p>
+            <figure class="figure float-right">
+                <img src="https://res.cloudinary.com/integrated-information-consultants-llc/image/upload/v1597212589/Macho%20Sports%20Report%20Photos/2006/12-December/2006-12-26-002.jpg" class="figure-img img-fluid rounded ml-4" style="width:350px">
+                <figcaption class="figure-caption ml-4" style="width:350px">
+                    I Won A Game’s GM Jeff Wilhelm wasn’t happy after his Title game loss to the Davis Kaisers.
+                </figcaption>
+            </figure>
+            <p>
+                Wilhelm, unfortunately, spoke too soon. In the championship, Tomlinson could only manage 123 yards on the ground – with no touchdowns. Despite an impressive performance from Steven Jackson (252 total yards, 2 TDs), WR Braylon Edwards could only manage two receptions for 7 yards, and ultimately wasn’t enough to offset all-around performances from the Kaisers’ running backs and wide receivers.
+            </p>
+            <p>
+                "No one thought I would even make the playoffs," Kaisers GM Hermes Camacho said after the game. "Didn’t I say that miracles could happen?"
+            </p>
+            <p>
+                Heading into the league's fifth season, Camacho had a team headed by Wide Receivers Terrell Owens and Larry Fitzgerald, and running back Carnell "Cadillac" Williams. The self-proclaimed "Fantasy genius" had success in the past – he has won his share of championships. Heading into the season, however, he had put together, arguably, one of the weakest teams in his tenure as head coach of the Kaisers. With poor production from his core players, and injuries to others, early in the season, the Kaisers kept winning on the strength of running backs like Willie Parker, Reggie Bush and Maurice Jones-Drew. Unheralded players such as Adam “Pacman” Jones, Thomas Jones and Wesley Welker were also key components to his championship season.
+            </p>
+            <figure class="figure float-left">
+                <img src="https://res.cloudinary.com/integrated-information-consultants-llc/image/upload/v1597212611/Macho%20Sports%20Report%20Photos/2006/12-December/2006-12-26-003.jpg" class="figure-img img-fluid rounded mr-4" style="width:350px">
+                <figcaption class="figure-caption" style="width:350px">
+                    Kaisers CB/PR/KR Adam “Pacman” Jones played a major role in GM Hermes Camacho’s championship run.
+                </figcaption>
+            </figure>
+            <p>
+                With the stretch run of the season ahead of them, the Kaisers were 6-3 – they proceeded to rattle off five straight wins heading into the playoffs. After an easy victory over Ian Foe's Venice Beach Bums, the Kaisers methodically took down the I Won A Game's on the strength of Jones-Drew, Bush and "Pacman" Jones. When asked to comment about Jones' importance to his championship season, Camacho replied, "Wock-wock-wock-wock-wock! Pacman!"
+            </p>
+            <p>
+                The Davis Excaliburs (9-7), headed by GM Paulo Camacho, brother of GM of the champion Davis Kaisers, Hermes Camacho, finished in third place. It was the first time Camacho had placed in four years. With a team headed by Peyton Manning, Clinton Portis and Chad Johnson, the Excaliburs were in a good position for a run at the title. His season started strong, on the strength of running backs Portis, Frank Gore and Deuce McAllister. With a 4-1 record after five games, the Excaliburs were in first place, with Manning, Johnson, along with wide receiver Marvin Harrison and defensive studs Adrian Wilson and Ray Lewis getting warmed up.
+            </p>
+            <figure class="figure float-right">
+                <img src="https://res.cloudinary.com/integrated-information-consultants-llc/image/upload/v1597212641/Macho%20Sports%20Report%20Photos/2006/12-December/2006-12-26-004.jpg" class="figure-img img-fluid rounded ml-4" style="width:200px">
+                <figcaption class="figure-caption ml-4" style="width:200px">
+                    I Won A Game’s GM Jeff Wilhelm wasn’t happy after his Title game loss to the Davis Kaisers.
+                </figcaption>
+            </figure>
+            <p>
+                The Excaliburs then hit a midseason slump, dropping five of six games, and fell to 5-6, with three weeks left in the season. Despite strong performances by Johnson, Gore and Manning, Camacho's Excaliburs still found themselves on the losing end. Things went from bad to worse when a season-ending injury to Clinton Portis hampered Camacho’s running back core considerably. Things looked so bad for the Excaliburs, Kaisers GM Hermes Camacho conducted a league poll: "How many wins will [Coach Paulo Camacho] have?" Two GMs actually voted “less than zero.”
+            </p>
+            <p>
+                "AAAH!!" Camacho was quoted late in the season. When asked to clarify, he replied, "That’s me dropping in the standings."
+            </p>
+            <figure class="figure float-left">
+                <img src="https://res.cloudinary.com/integrated-information-consultants-llc/image/upload/v1597212424/Macho%20Sports%20Report%20Photos/2006/12-December/2006-12-26-005.jpg" class="figure-img img-fluid rounded mr-4" style="width:350px">
+                <figcaption class="figure-caption" style="width:350px">
+                    Wheeling Steel GM Aliotsy Andrianarivo (left) seen with Davis Excaliburs GM Paulo Camacho. The Steel finished in last place, at 3-11.
+                </figcaption>
+            </figure>
+            <p>
+                After a disheartening defeat at the hands of the first place I Can't Believe I Won A Game's, the Excaliburs regrouped, rattling off narrow victories in three straight games to make the playoffs, at 8-6. Camacho relied on backup running backs Ladell Betts and Ahman Green, as well as stellar play from Manning, Gore, Harrison and Johnson, to take the last three games of the season, against Sid Gospe's San Francisco Smashmouths (9-7), the Venice Beach Bums (9-7) and the Rambling Wreck (4-12). In a rematch against the surging I Won A Game's, the Excaliburs fell short of beating Wilhelm's team on Monday night, with performances by Manning, Harrison and Johnson. A week later, Camacho beat the Venice Beach Bums, headed by Ian Foe, to take third place, sweeping the season series.
+            </p>
+            <p>
+                Et Cetera: Wheeling Steel GM Aliotsy Andrianarivo announced yesterday that he will fire himself as coach of the Wheeling Steel following their dismal 3-11 regular reason and embarassing consolation playoff performance. Insiders suggest that offensive coordinator Aliotsy Andrianarivo, defensive coordinator Aliotsy Andrianarivo, and receivers coach Aliotsy Andrianarivo are all potential replacements for Andrianarivo.
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <h4 class="lead">
+                Blogroll
+            </h4>
+            <hr class="red">
+            <div class="card text-white bg-dark mb-3 ml-4 mr-4">
+                <div class="card-body">
+                    <p>
+                        <a class="white" href="https://sexwithrubberchickens.com/">A Funny Dominatrix</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://barntsinthebelfry.wordpress.com/">Barnts In The Belfry</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://bleacherreport.com/">Bleacher Report</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://thesportsdaily.com/category/cowbell-kingdom/">Cowbell Kingdom</a>
+                    </p>
+                    <p>
+                        <a class="white" href="http://www.davislifemagazine.com/">Davis Life Magazine</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://www.ninersnation.com/">Niners Nation</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://chrisross91.wordpress.com/">Painting The Black</a>
+                    </p>
+                    <p>
+                        <a class="white" href="http://teachingassistantsdsu.blogspot.com/">Pedagogy of the Teaching Assistant</a>
+                    </p>
+                    <p>
+                        <a class="white" href="http://rossandheckler.blogspot.com/">Ross and The Heckler</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://www.sactownroyalty.com/">Sactown Royalty</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://www.tcu360.com/">TCU 360</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://www.tcu360.com/category/the-109/">The 109</a>
+                    </p>
+                    <p>
+                        <a class="white" href="http://shesingleton.blogspot.com/">The 30-Something Singleton's Life</a>
+                    </p>
+                    <p>
+                        <a class="white" href="http://www.theathletic.com/">The Athletic</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://brettryanclu.wordpress.com/">The Lens from Southern California</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://www.mccoveychronicles.com/">The McCovey Chronicles</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://thevangundy.wordpress.com/">The VanGundy</a>
+                    </p>
+                    <p>
+                        <a class="white" href="https://worldinsport.com/">World In Sport</a>
+                    </p>
+                </div>
+            </div>
+            <h4 class="lead">
+                MSR on Facebook
+            </h4>
+            <hr class="red">
+            <div class="fb-page" data-href="https://www.facebook.com/CaMachoSports" data-tabs="timeline"
+                data-width="300" data-height="700" data-small-header="false" data-adapt-container-width="true"
+                data-hide-cover="false" data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/CaMachoSports" class="fb-xfbml-parse-ignore"><a
+                        href="https://www.facebook.com/CaMachoSports">The Macho Sports Report</a></blockquote>
+            </div>
+
+            <hr class="black">
+
+            <h4 class="lead">
+                Subscribe to MSR on YouTube
+            </h4>
+            <hr class="red">
+            <div class="g-ytsubscribe" data-channelid="UCLyYGkinb5lXRB_GyvjsENQ" data-layout="full" data-theme="dark" data-count="default">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="../../../../../js/app.js"></script>
+</body>
+</html>
