@@ -22,6 +22,10 @@ p.red {
     color: #aa0000;
 }
 
+.blue {
+    color: blue;
+}
+
 figcaption {
     font-family: 'Oswald';
 }
